@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		353BEFE41F88781700C3AB9F /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353BEFE31F88781700C3AB9F /* FavoriteButton.swift */; };
+		353BEFE61F887D8300C3AB9F /* CompactTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353BEFE51F887D8300C3AB9F /* CompactTabBar.swift */; };
+		353BEFE81F8881F300C3AB9F /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353BEFE71F8881F300C3AB9F /* FavoritesViewController.swift */; };
+		358D5D171F85BB4D009D0EA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358D5D161F85BB4D009D0EA9 /* AppDelegate.swift */; };
+		358D5D1C1F85BB4D009D0EA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358D5D1A1F85BB4D009D0EA9 /* Main.storyboard */; };
+		358D5D1F1F85BB4D009D0EA9 /* BeBop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 358D5D1D1F85BB4D009D0EA9 /* BeBop.xcdatamodeld */; };
+		358D5D211F85BB4D009D0EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358D5D201F85BB4D009D0EA9 /* Assets.xcassets */; };
+		358D5D241F85BB4D009D0EA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358D5D221F85BB4D009D0EA9 /* LaunchScreen.storyboard */; };
+		358D5D2E1F85C34C009D0EA9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358D5D2D1F85C34C009D0EA9 /* Extensions.swift */; };
+		358D5D311F85C4E7009D0EA9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358D5D301F85C4E7009D0EA9 /* NetworkManager.swift */; };
+		358D5D361F85D0B2009D0EA9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358D5D351F85D0B2009D0EA9 /* MainTabBarController.swift */; };
+		358D5D381F85D0D8009D0EA9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358D5D371F85D0D8009D0EA9 /* TabBarController.swift */; };
+		358D5D3A1F85EE19009D0EA9 /* SearchArtistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358D5D391F85EE19009D0EA9 /* SearchArtistsViewController.swift */; };
+		358D5D3F1F85EE4B009D0EA9 /* ArtistDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358D5D3E1F85EE4B009D0EA9 /* ArtistDetailsViewController.m */; };
+		358D5D411F85EF6D009D0EA9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358D5D401F85EF6D009D0EA9 /* MainViewController.swift */; };
+		358D5D431F85EFBA009D0EA9 /* CommomCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358D5D421F85EFBA009D0EA9 /* CommomCells.swift */; };
+		358D5D471F85F2A2009D0EA9 /* SearchArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358D5D461F85F2A2009D0EA9 /* SearchArtist.swift */; };
+		35F621A81F85F9E8001AA88F /* ArtistsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F621A71F85F9E8001AA88F /* ArtistsManager.swift */; };
+		35F621AA1F869F0B001AA88F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F621A91F869F0B001AA88F /* Colors.swift */; };
+		35F621AC1F885E22001AA88F /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F621AB1F885E21001AA88F /* FavoritesManager.swift */; };
+		35FDE70B1F892385004AC4DE /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FDE70A1F892385004AC4DE /* Artist.m */; };
+		72ED5677B428880B13EB0297 /* Pods_BeBop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2485188AC580748E627F1CD4 /* Pods_BeBop.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A0D43698A565C12CE400640 /* Pods-BeBop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeBop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeBop/Pods-BeBop.debug.xcconfig"; sourceTree = "<group>"; };
+		2485188AC580748E627F1CD4 /* Pods_BeBop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeBop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		353BEFE31F88781700C3AB9F /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		353BEFE51F887D8300C3AB9F /* CompactTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactTabBar.swift; sourceTree = "<group>"; };
+		353BEFE71F8881F300C3AB9F /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		358D5D131F85BB4D009D0EA9 /* BeBop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeBop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		358D5D161F85BB4D009D0EA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		358D5D1B1F85BB4D009D0EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		358D5D1E1F85BB4D009D0EA9 /* BeBop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeBop.xcdatamodel; sourceTree = "<group>"; };
+		358D5D201F85BB4D009D0EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		358D5D231F85BB4D009D0EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		358D5D251F85BB4D009D0EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		358D5D2D1F85C34C009D0EA9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		358D5D301F85C4E7009D0EA9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		358D5D351F85D0B2009D0EA9 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		358D5D371F85D0D8009D0EA9 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		358D5D391F85EE19009D0EA9 /* SearchArtistsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchArtistsViewController.swift; sourceTree = "<group>"; };
+		358D5D3C1F85EE4B009D0EA9 /* BeBop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeBop-Bridging-Header.h"; sourceTree = "<group>"; };
+		358D5D3D1F85EE4B009D0EA9 /* ArtistDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtistDetailsViewController.h; sourceTree = "<group>"; };
+		358D5D3E1F85EE4B009D0EA9 /* ArtistDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtistDetailsViewController.m; sourceTree = "<group>"; };
+		358D5D401F85EF6D009D0EA9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		358D5D421F85EFBA009D0EA9 /* CommomCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommomCells.swift; sourceTree = "<group>"; };
+		358D5D461F85F2A2009D0EA9 /* SearchArtist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchArtist.swift; sourceTree = "<group>"; };
+		35F621A71F85F9E8001AA88F /* ArtistsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsManager.swift; sourceTree = "<group>"; };
+		35F621A91F869F0B001AA88F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		35F621AB1F885E21001AA88F /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
+		35FDE7091F892385004AC4DE /* Artist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
+		35FDE70A1F892385004AC4DE /* Artist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Artist.m; sourceTree = "<group>"; };
+		4C7EAE86991FA1DAC84EE4AD /* Pods-BeBop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeBop.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeBop/Pods-BeBop.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		358D5D101F85BB4D009D0EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72ED5677B428880B13EB0297 /* Pods_BeBop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		353BEFE21F8877FC00C3AB9F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				353BEFE31F88781700C3AB9F /* FavoriteButton.swift */,
+				353BEFE51F887D8300C3AB9F /* CompactTabBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		358D5D0A1F85BB4D009D0EA9 = {
+			isa = PBXGroup;
+			children = (
+				358D5D151F85BB4D009D0EA9 /* BeBop */,
+				358D5D141F85BB4D009D0EA9 /* Products */,
+				72D2093E2BEF3E900EE80D3D /* Pods */,
+				38B4FCDB43A170C4D2B6C68C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		358D5D141F85BB4D009D0EA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				358D5D131F85BB4D009D0EA9 /* BeBop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		358D5D151F85BB4D009D0EA9 /* BeBop */ = {
+			isa = PBXGroup;
+			children = (
+				358D5D321F85CFD1009D0EA9 /* Features */,
+				358D5D2B1F85C2EE009D0EA9 /* Global */,
+				358D5D161F85BB4D009D0EA9 /* AppDelegate.swift */,
+				358D5D1A1F85BB4D009D0EA9 /* Main.storyboard */,
+				358D5D201F85BB4D009D0EA9 /* Assets.xcassets */,
+				358D5D221F85BB4D009D0EA9 /* LaunchScreen.storyboard */,
+				358D5D251F85BB4D009D0EA9 /* Info.plist */,
+				358D5D1D1F85BB4D009D0EA9 /* BeBop.xcdatamodeld */,
+			);
+			path = BeBop;
+			sourceTree = "<group>";
+		};
+		358D5D2B1F85C2EE009D0EA9 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				353BEFE21F8877FC00C3AB9F /* Components */,
+				358D5D451F85F292009D0EA9 /* Models */,
+				358D5D2F1F85C4DB009D0EA9 /* Classes */,
+				358D5D2C1F85C31A009D0EA9 /* Helpers */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		358D5D2C1F85C31A009D0EA9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				358D5D3C1F85EE4B009D0EA9 /* BeBop-Bridging-Header.h */,
+				358D5D2D1F85C34C009D0EA9 /* Extensions.swift */,
+				35F621A91F869F0B001AA88F /* Colors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		358D5D2F1F85C4DB009D0EA9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				358D5D351F85D0B2009D0EA9 /* MainTabBarController.swift */,
+				358D5D401F85EF6D009D0EA9 /* MainViewController.swift */,
+				358D5D301F85C4E7009D0EA9 /* NetworkManager.swift */,
+				358D5D371F85D0D8009D0EA9 /* TabBarController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		358D5D321F85CFD1009D0EA9 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				358D5D441F85F1EC009D0EA9 /* Managers */,
+				358D5D3B1F85EE2E009D0EA9 /* Details */,
+				358D5D341F85CFF2009D0EA9 /* Favorites */,
+				358D5D331F85CFEB009D0EA9 /* Search */,
+				358D5D421F85EFBA009D0EA9 /* CommomCells.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		358D5D331F85CFEB009D0EA9 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				358D5D391F85EE19009D0EA9 /* SearchArtistsViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		358D5D341F85CFF2009D0EA9 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				35F621AB1F885E21001AA88F /* FavoritesManager.swift */,
+				353BEFE71F8881F300C3AB9F /* FavoritesViewController.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		358D5D3B1F85EE2E009D0EA9 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				358D5D3D1F85EE4B009D0EA9 /* ArtistDetailsViewController.h */,
+				358D5D3E1F85EE4B009D0EA9 /* ArtistDetailsViewController.m */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		358D5D441F85F1EC009D0EA9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				35F621A71F85F9E8001AA88F /* ArtistsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		358D5D451F85F292009D0EA9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				358D5D461F85F2A2009D0EA9 /* SearchArtist.swift */,
+				35FDE7091F892385004AC4DE /* Artist.h */,
+				35FDE70A1F892385004AC4DE /* Artist.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		38B4FCDB43A170C4D2B6C68C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2485188AC580748E627F1CD4 /* Pods_BeBop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72D2093E2BEF3E900EE80D3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A0D43698A565C12CE400640 /* Pods-BeBop.debug.xcconfig */,
+				4C7EAE86991FA1DAC84EE4AD /* Pods-BeBop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		358D5D121F85BB4D009D0EA9 /* BeBop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 358D5D281F85BB4D009D0EA9 /* Build configuration list for PBXNativeTarget "BeBop" */;
+			buildPhases = (
+				6368BA9BF55E7B00EE24C6A0 /* [CP] Check Pods Manifest.lock */,
+				358D5D0F1F85BB4D009D0EA9 /* Sources */,
+				358D5D101F85BB4D009D0EA9 /* Frameworks */,
+				358D5D111F85BB4D009D0EA9 /* Resources */,
+				B4BF6EF4473C406DBAA7C21A /* [CP] Embed Pods Frameworks */,
+				501E871A6FCF54F99970BED3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeBop;
+			productName = BeBop;
+			productReference = 358D5D131F85BB4D009D0EA9 /* BeBop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		358D5D0B1F85BB4D009D0EA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Mogames;
+				TargetAttributes = {
+					358D5D121F85BB4D009D0EA9 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 358D5D0E1F85BB4D009D0EA9 /* Build configuration list for PBXProject "BeBop" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 358D5D0A1F85BB4D009D0EA9;
+			productRefGroup = 358D5D141F85BB4D009D0EA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				358D5D121F85BB4D009D0EA9 /* BeBop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		358D5D111F85BB4D009D0EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358D5D241F85BB4D009D0EA9 /* LaunchScreen.storyboard in Resources */,
+				358D5D211F85BB4D009D0EA9 /* Assets.xcassets in Resources */,
+				358D5D1C1F85BB4D009D0EA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		501E871A6FCF54F99970BED3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeBop/Pods-BeBop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6368BA9BF55E7B00EE24C6A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeBop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4BF6EF4473C406DBAA7C21A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BeBop/Pods-BeBop-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+				"${BUILT_PRODUCTS_DIR}/KRActivityIndicatorView/KRActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/KRProgressHUD/KRProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SugarRecord/SugarRecord.framework",
+				"${BUILT_PRODUCTS_DIR}/YapDatabase/YapDatabase.framework",
+				"${BUILT_PRODUCTS_DIR}/YapImageManager/YapImageManager.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SugarRecord.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YapDatabase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YapImageManager.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeBop/Pods-BeBop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		358D5D0F1F85BB4D009D0EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358D5D311F85C4E7009D0EA9 /* NetworkManager.swift in Sources */,
+				35F621AC1F885E22001AA88F /* FavoritesManager.swift in Sources */,
+				353BEFE61F887D8300C3AB9F /* CompactTabBar.swift in Sources */,
+				35FDE70B1F892385004AC4DE /* Artist.m in Sources */,
+				358D5D1F1F85BB4D009D0EA9 /* BeBop.xcdatamodeld in Sources */,
+				358D5D361F85D0B2009D0EA9 /* MainTabBarController.swift in Sources */,
+				35F621AA1F869F0B001AA88F /* Colors.swift in Sources */,
+				358D5D381F85D0D8009D0EA9 /* TabBarController.swift in Sources */,
+				358D5D3F1F85EE4B009D0EA9 /* ArtistDetailsViewController.m in Sources */,
+				35F621A81F85F9E8001AA88F /* ArtistsManager.swift in Sources */,
+				358D5D3A1F85EE19009D0EA9 /* SearchArtistsViewController.swift in Sources */,
+				353BEFE81F8881F300C3AB9F /* FavoritesViewController.swift in Sources */,
+				358D5D411F85EF6D009D0EA9 /* MainViewController.swift in Sources */,
+				353BEFE41F88781700C3AB9F /* FavoriteButton.swift in Sources */,
+				358D5D431F85EFBA009D0EA9 /* CommomCells.swift in Sources */,
+				358D5D2E1F85C34C009D0EA9 /* Extensions.swift in Sources */,
+				358D5D171F85BB4D009D0EA9 /* AppDelegate.swift in Sources */,
+				358D5D471F85F2A2009D0EA9 /* SearchArtist.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		358D5D1A1F85BB4D009D0EA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				358D5D1B1F85BB4D009D0EA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		358D5D221F85BB4D009D0EA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				358D5D231F85BB4D009D0EA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		358D5D261F85BB4D009D0EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		358D5D271F85BB4D009D0EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		358D5D291F85BB4D009D0EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A0D43698A565C12CE400640 /* Pods-BeBop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DB69GE468;
+				INFOPLIST_FILE = BeBop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogames.BeBop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BeBop/Global/Helpers/BeBop-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		358D5D2A1F85BB4D009D0EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7EAE86991FA1DAC84EE4AD /* Pods-BeBop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DB69GE468;
+				INFOPLIST_FILE = BeBop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogames.BeBop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BeBop/Global/Helpers/BeBop-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		358D5D0E1F85BB4D009D0EA9 /* Build configuration list for PBXProject "BeBop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358D5D261F85BB4D009D0EA9 /* Debug */,
+				358D5D271F85BB4D009D0EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		358D5D281F85BB4D009D0EA9 /* Build configuration list for PBXNativeTarget "BeBop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358D5D291F85BB4D009D0EA9 /* Debug */,
+				358D5D2A1F85BB4D009D0EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		358D5D1D1F85BB4D009D0EA9 /* BeBop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				358D5D1E1F85BB4D009D0EA9 /* BeBop.xcdatamodel */,
+			);
+			currentVersion = 358D5D1E1F85BB4D009D0EA9 /* BeBop.xcdatamodel */;
+			path = BeBop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 358D5D0B1F85BB4D009D0EA9 /* Project object */;
+}

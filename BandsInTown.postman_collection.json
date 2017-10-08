@@ -1,0 +1,107 @@
+{
+	"variables": [],
+	"info": {
+		"name": "BandsInTown",
+		"_postman_id": "0bddc4c5-74ba-000a-f387-47173160d31c",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search for Artists",
+			"request": {
+				"url": {
+					"raw": "https://news.bandsintown.com/searchArtists?search=maro",
+					"protocol": "https",
+					"host": [
+						"news",
+						"bandsintown",
+						"com"
+					],
+					"path": [
+						"searchArtists"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "maro",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Artist Details",
+			"request": {
+				"url": {
+					"raw": "https://rest.bandsintown.com/artists/Maroon 5?app_id=bebop",
+					"protocol": "https",
+					"host": [
+						"rest",
+						"bandsintown",
+						"com"
+					],
+					"path": [
+						"artists",
+						"Maroon 5"
+					],
+					"query": [
+						{
+							"key": "app_id",
+							"value": "bebop",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Artist Events",
+			"request": {
+				"url": {
+					"raw": "https://rest.bandsintown.com/artists/Maroon 5/events?app_id=bebop",
+					"protocol": "https",
+					"host": [
+						"rest",
+						"bandsintown",
+						"com"
+					],
+					"path": [
+						"artists",
+						"Maroon 5",
+						"events"
+					],
+					"query": [
+						{
+							"key": "app_id",
+							"value": "bebop",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
