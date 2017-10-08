@@ -12,7 +12,11 @@ class CompactTabBar: UITabBar {
 
     override func sizeThatFits(_ size: CGSize) -> CGSize {
         var size = super.sizeThatFits(size)
-        size.height = 40
+        if UIDevice().userInterfaceIdiom == .phone && UIScreen.main.nativeBounds.height == 2436 {
+            size.height = 80
+        } else {
+            size.height = 40
+        }
         return size
     }
 
